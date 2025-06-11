@@ -16,7 +16,7 @@ A matched single-cell RNA-seq reference from a breast cancer atlas (Wu et al., 2
 
 ### **Task 1: Preprocessing and Spatial Clustering**
 - Load filtered UMI and gene expression matrices into a Seurat object
-- Perform quality control to remove low-quality spots and lowly expressed genes
+- Perform quality control to remove low-quality spots 
 - Normalize using **SCTransform**
 - Dimensionality reduction via PCA
 - Clustering and annotation of spatial spots
